@@ -1,11 +1,11 @@
-# Dynamic_Memory_Allocator
+# Web_Search_Engine
 
-This project is a course assignment for the course `COL106 - Data Structures and Algorithms` at IIT Delhi.
+This project is a course assignment for the course `COL764 - Information Retrieval and Web Search` at IIT Delhi.
 
-This project aims at building a dynamic memory allocation system to `allocate, free and defragment` memory blocks as queried by the user.
+The project aims at building a web search engine with implementations of `multiple encoding and decoding` techniques which help to compress the huge pool of data the search engine stores.
 
-The allocator uses data structures like `Doubly Linked Lists`, `Binary Search Trees` and `AVL Trees` which are all constructed from scratch.
+The data is initially stored as self-constructed `inverse-index dictionaries`.
 
-I have also provided the option to the users to choose either the `Best-Fit` or the `First-Fit` implementation as desired.
+To handle the huge amount of data which cannot be stored simultaneously on the in-memory disk, we make use of self-implemented `External Merge Sort` which helps to minimize use of in-memory disk thereby boosting the retrival speed of our engine.
 
-The entire system is implemented in `JAVA`.
+The entire engine is implemented in `Python`.
